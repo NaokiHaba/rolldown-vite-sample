@@ -5,7 +5,7 @@ This playground compares the build performance between standard Vite and Rolldow
 ## Setup
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Usage
@@ -14,31 +14,31 @@ npm install
 
 **Standard Vite:**
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 **Rolldown-vite:**
 ```bash
-npm run dev:rolldown
+pnpm run dev:rolldown
 ```
 
 ### Production Build
 
 **Standard Vite:**
 ```bash
-npm run build
+pnpm run build
 ```
 
 **Rolldown-vite:**
 ```bash
-npm run build:rolldown
+pnpm run build:rolldown
 ```
 
 ### Performance Benchmark
 
 Run the automated benchmark to compare build times:
 ```bash
-npm run benchmark
+pnpm run benchmark
 ```
 
 This will run multiple build iterations for both Vite and Rolldown-vite and display the average build times.
